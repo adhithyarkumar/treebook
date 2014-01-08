@@ -1,3 +1,23 @@
 // Place all the styles related to the statuses controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+.status {
+border-bottom: 1px solid #ccc;
+padding:5px 0px 10px 0px;	
+}
+
+.status h3{
+  margin:5px 0px;
+}
+
+.meta{
+	display:none;
+}
+
+.status.hover .meta{
+	display:inline;
+}
+
